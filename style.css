@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: white;
+}
