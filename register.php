@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'https://github.com/JasperK08/schoolsysteem/blob/main/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'];
@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registreren</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://github.com/JasperK08/schoolsysteem/blob/main/style.css">
 </head>
 <body>
     <h1>Registreren</h1>
