@@ -1,10 +1,10 @@
 <?php
 session_start();
-include 'db.php';
+include 'https://github.com/JasperK08/schoolsysteem/blob/main/db.php';
 
 // Controleer of de gebruiker is ingelogd en rol is student
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'student') {
-    header('Location: login.php');
+    header('Location: https://github.com/JasperK08/schoolsysteem/blob/main/login.php');
     exit();
 }
 
@@ -27,7 +27,7 @@ $result_schedule = $conn->query($sql_schedule);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://github.com/JasperK08/schoolsysteem/blob/main/style.css">
 </head>
 <body>
     <h1>Student Dashboard</h1>
@@ -62,7 +62,7 @@ $result_schedule = $conn->query($sql_schedule);
     </table>
     
     <nav>
-        <a href="logout.php">Uitloggen</a>
+        <a href="https://github.com/JasperK08/schoolsysteem/blob/main/logout.php">Uitloggen</a>
     </nav>
 </body>
 </html
