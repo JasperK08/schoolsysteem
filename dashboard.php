@@ -1,10 +1,10 @@
 <?php
 session_start();
-include 'db.php';
+include 'https://github.com/JasperK08/schoolsysteem/blob/main/db.php';
 
 // Controleer of de gebruiker is ingelogd en rol is docent
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'teacher') {
-    header('Location: login.php');
+    header('Location: https://github.com/JasperK08/schoolsysteem/blob/main/login.php');
     exit();
 }
 
@@ -23,8 +23,8 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'teacher') {
 <body>
     <h1>Docent Dashboard</h1>
     <nav>
-        <a href="view.php">Bekijk Rooster en Cijfers</a>
-        <a href="logout.php">Uitloggen</a>
+        <a href="https://github.com/JasperK08/schoolsysteem/blob/main/view.php">Bekijk Rooster en Cijfers</a>
+        <a href="https://github.com/JasperK08/schoolsysteem/blob/main/view.php">Uitloggen</a>
     </nav>
     <h2>Voeg lessen, cijfers of aanwezigheid toe:</h2>
     <!-- Formulieren voor invoer van lessen, cijfers, en aanwezigheid -->
