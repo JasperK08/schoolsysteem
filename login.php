@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'db.php';
+include 'https://github.com/JasperK08/schoolsysteem/blob/main/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (password_verify($password, $user['password'])) {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['role'] = $user['role'];
-            header('Location: dashboard.php');
+            header('Location: https://github.com/JasperK08/schoolsysteem/blob/main/dashboard.php');
             exit();
         } else {
             $error = "Ongeldig wachtwoord.";
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inloggen</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://github.com/JasperK08/schoolsysteem/blob/main/style.css">
 </head>
 <body>
     <h1>Inloggen</h1>
