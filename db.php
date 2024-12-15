@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "jasperk"; // vervang met jouw DB gebruiker
-$password = "jsaperk"; // vervang met jouw DB wachtwoord
+$password = "jasperk"; // vervang met jouw DB wachtwoord
 $dbname = "jasperk_sklonline"; // jouw database naam
 
 // Maak verbinding met de database
