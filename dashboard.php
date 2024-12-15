@@ -18,7 +18,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'teacher') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docent Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://github.com/JasperK08/schoolsysteem/blob/main/style.css">
 </head>
 <body>
     <h1>Docent Dashboard</h1>
